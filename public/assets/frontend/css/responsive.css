@@ -1,0 +1,381 @@
+/*---------------------------
+    Responsive
+---------------------------*/
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px){
+}
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .logo-wrapper img {
+        max-width: 180px;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process + .single-donation-process {
+        margin-left: 0px !important;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process {
+        width: 250px !important;
+    }
+    .call-to-action-area .cta-inner .left-content-area .title {
+        font-size: 42px;
+        line-height: 56px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and  (min-width: 768px) and (max-width: 991px){
+    .navbar-area .nav-container {
+        padding: 20px 0px !important;
+    }
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li + .menu-btn {
+        background-color: transparent !important;
+        color: var(--paragraph-color) !important;
+        text-align: left !important;
+        padding: 10px 0 !important;;
+    }
+    .header-area .right-content-area {
+        margin-top: 60px;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process + .single-donation-process {
+        margin-left: 0px  !important;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process {
+      width: calc(100% / 2) !important;
+      margin-bottom: 30px;
+    }
+    .blood-donation-process .donation-process-list {
+        flex-wrap: wrap !important;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process:after{
+      display: none;
+    }
+    .single-benefit-item {
+        display: block !important;
+    }
+    .single-benefit-item .left-content-area,
+    .single-benefit-item .right-content-area{
+        display: block;
+        width: 100% !important;
+    }
+    .single-benefit-item .right-content-area{
+      margin-top: 40px;
+    }
+    .single-counterup-item{
+      margin-bottom: 30px;
+    }
+    .call-to-action-area .cta-inner .left-content-area .title br {
+      display: none;
+    }
+    .call-to-action-area .cta-inner .left-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .btn-wrapper .boxed-btn {
+      padding: 16px 20px;
+  }
+
+  .single-new-item {
+    margin-bottom: 30px;
+  }
+  .about-us-content .right-content-area {
+      margin-top: 30px;
+  }
+
+  .why-donate-blood-area .img-wrapper {
+    margin-bottom: 40px;
+  }
+  .footer-top-area-inner {
+      display: block;
+  }
+
+  .footer-top-area-inner .left-content-area {
+      margin-bottom: 20px !important;
+  }
+  .widget-area{
+    margin-top: 60px;
+  }
+  .contact-page-form-wrap {
+      margin-top: 40px;
+  }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px){
+    .navbar-area .nav-container {
+        padding: 20px 30px !important;
+    }
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li + .menu-btn {
+        background-color: transparent;
+        color: var(--paragraph-color);
+        text-align: left;
+        padding: 10px 0;
+    }
+    .header-area .right-content-area {
+        margin-top: 60px;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process + .single-donation-process {
+        margin-left: 0px !important;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process {
+      width: calc(100% / 2) !important;
+      margin-bottom: 30px;
+    }
+    .blood-donation-process .donation-process-list {
+        flex-wrap: wrap !important;
+    }
+    .blood-donation-process .donation-process-list .single-donation-process:after{
+      display: none;
+    }
+    .single-benefit-item {
+        display: block ;
+    }
+    .single-benefit-item .left-content-area,
+    .single-benefit-item .right-content-area{
+        display: block;
+        width: 100% ;
+    }
+    .single-benefit-item .right-content-area{
+      margin-top: 40px;
+    }
+    .single-counterup-item{
+      margin-bottom: 30px;
+    }
+    .call-to-action-area .cta-inner .left-content-area .title br {
+        display: none;
+    }
+    .call-to-action-area .cta-inner .left-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .btn-wrapper .boxed-btn {
+        padding: 16px 20px;
+    }
+
+  .single-new-item {
+    margin-bottom: 30px;
+  }
+  .about-us-content .right-content-area {
+      margin-top: 30px;
+  }
+
+  .why-donate-blood-area .img-wrapper {
+    margin-bottom: 40px;
+  }
+  .footer-top-area-inner {
+      display: block;
+  }
+
+  .footer-top-area-inner .left-content-area {
+      margin-bottom: 20px !important;
+  }
+  .widget-area{
+    margin-top: 60px;
+  }
+  .contact-page-form-wrap {
+      margin-top: 40px;
+  }
+  .blood-search-warpper {
+      padding: 20px;
+  }
+  .call-to-action-area .cta-inner {
+      display: block;
+  }
+  .single-new-item .thumb img{
+    width: 100%;
+  }
+  .topbar-area .topbar-inner {
+      display: block;
+      text-align: center;
+  }
+
+  .topbar-area .topbar-inner .right-content-area {
+      margin-top: 10px;
+  }
+
+
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px){
+}
+
+@media only screen and (max-width: 450px){
+  .blood-search-form .fields-list li {
+      display: inline-block;
+      width: calc(100% / 2 - 20px);
+  }
+  .blood-search-form .fields-list li:last-child {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+  .section-title .title {
+      font-size: 36px;
+      line-height: 50px;
+      font-weight: 600;
+  }
+  .single-benefit-item .title {
+      font-size: 36px;
+      line-height: 46px;
+  }
+  .call-to-action-area .cta-inner .left-content-area .title {
+      font-size: 36px;
+      line-height: 50px;
+  }
+  .footer-top-area-inner .left-content-area .contact-info li {
+      display: block;
+      margin-left: 0 !important;
+  }
+
+}
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px){
+  .header-area .left-content-area .title {
+      font-size: 50px;
+      line-height: 60px;
+  }
+  .blood-donation-process .donation-process-list .single-donation-process {
+      width: 100% !important;
+      margin-bottom: 30px;
+      text-align: center;
+      padding-left: 0;
+      background-position: center;
+  }
+  .single-benefit-item .title {
+      font-size: 34px;
+      line-height: 46px;
+  }
+  .navbar-area .nav-container {
+      padding: 20px 10px !important;
+  }
+  .about-us-content .left-content-area .title {
+      font-size: 36px;
+      line-height: 46px;
+  }
+  .breadcrumb-area .page-title {
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .breadcrumb-area .page-list li {
+      font-size: 16px;
+  }
+  .blog-details-item .title,
+  .contact-page-content-area .left-content-area .inner-title .title {
+      font-size: 30px;
+      line-height: 40px;
+  }
+  .blog-details-footer{
+    display: block;
+  }
+  .blog-details-footer .right{
+    margin-top: 20px;
+  }
+
+}
+
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+  .header-area .left-content-area .title {
+      font-size: 44px;
+      line-height: 56px;
+  }
+  .header-area .left-content-area .btn-wrapper .boxed-btn {
+      padding: 10px 10px;
+  }
+
+  .header-area .left-content-area .btn-wrapper .boxed-btn +.boxed-btn {
+      margin-left: 10px;
+  }
+
+  .header-area .left-content-area .btn-wrapper .boxed-btn {
+      max-width: 140px !important;
+  }
+  .blood-search-form .fields-list li+li{
+    margin-top: 10px !important;
+  }
+  .blood-search-form .fields-list li {
+      display: inline-block;
+      width: 100%;
+      margin-left: 0px !important;
+
+  }
+  .single-benefit-item .title {
+      font-size: 30px;
+      line-height: 40px;
+  }
+  .single-testimonial-item{
+    display: block;
+  }
+  .single-testimonial-item .thumb{
+    margin-bottom: 20px;
+  }
+  .call-to-action-area .cta-inner .left-content-area .title {
+      font-size: 32px;
+      line-height: 42px;
+  }
+  .about-us-content .left-content-area .title {
+      font-size: 32px;
+      line-height: 40px;
+  }
+  .navbar-area .logo-wrapper img {
+      max-width: 160px;
+  }
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+  .header-area .left-content-area .title {
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .header-area .left-content-area .btn-wrapper .boxed-btn {
+      min-width: 140px !important;
+  }
+  .section-title .title {
+      font-size: 32px;
+      line-height: 42px;
+      font-weight: 600;
+  }
+  .about_widget .footer-logo img {
+      max-width: 180px;
+  }
+  .single-testimonial-item .content p {
+      font-size: 16px;
+      line-height: 30px;
+      font-style: italic;
+  }
+  .breadcrumb-area .breadcrumb-inner {
+      padding: 100px 0 102px 0 !important;
+  }
+}
+
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 330px){
+  .breadcrumb-area .page-title {
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .breadcrumb-area .breadcrumb-inner {
+      padding: 100px 0 102px 0;
+  }
+  .header-area .left-content-area .btn-wrapper .boxed-btn {
+      min-width: 130px !important;
+  }
+  .call-to-action-area .cta-inner .left-content-area .title {
+      font-size: 30px;
+      line-height: 40px;
+  }
+
+}

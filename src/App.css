@@ -1,0 +1,44 @@
+.style1{
+  outline: none; -webkit-font-smoothing: antialiased; margin-bottom: 25px; font-weight: 600; line-height: 50px; font-size: 40px; color: var(--heading-color);
+}
+
+.spanStyle{
+  color: rgb(135, 138, 149); font-family: Poppins, sans-serif; font-size: 16px;
+  
+}
+
+.style2{
+  outline: none; -webkit-font-smoothing: antialiased; margin-top: 30px; list-style-position: initial; list-style-image: initial; color: rgb(135, 138, 149); font-family: Poppins, sans-serif; font-size: 16px;
+}
+
+.style3{
+  outline: none; -webkit-font-smoothing: antialiased; display: block; position: relative; z-index: 0; padding-left: 20px;
+}
+
+.style4{
+  outline: none; -webkit-font-smoothing: antialiased; display: block; position: relative; z-index: 0; padding-left: 20px; margin-top: 10px;
+}
+
+
+.about-style{
+  outline: none; -webkit-font-smoothing: antialiased; margin-bottom: 10px; color: rgb(135, 138, 149); font-family: Poppins, sans-serif; font-size: 16px;
+}
+.about-span{
+  color: var(--heading-color); font-family: Poppins, sans-serif; font-size: 40px; font-weight: 600;
+}
+
+.about-style2{
+  outline: none; -webkit-font-smoothing: antialiased; margin-bottom: 15px; font-weight: 600; line-height: 30px; font-size: 20px; color: var(--heading-color);
+}
+
+.about-span2{
+  color: rgb(135, 138, 149); font-family: Poppins, sans-serif; font-size: 16px; font-weight: 400;
+}
+
+.form-group.required .control-label:after { 
+  color: #d00;
+  content: "*";
+  position: absolute;
+  margin-left: 8px;
+  top:7px;
+}

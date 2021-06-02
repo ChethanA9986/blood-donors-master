@@ -1,0 +1,1 @@
+export const activeStyle = { color: '#3273D6' }
